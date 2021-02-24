@@ -2,9 +2,12 @@ function redirect(link){
     window.open(link);
 }
 url = window.location.href
-if(url.includes("Activities")){
-    if(url.includes("activity_")){
-        var id = "#activity_"+url[url.indexOf("activity_")+"activity_".length]
+if(url.includes("Activities") || url.includes("Outputs")){
+    if(url.includes("activity_") || url.includes("output_")){
+        if(url.includes("activity_"))
+            var id = "#activity_"+url[url.indexOf("activity_")+"activity_".length];
+        else
+            var id ="#output_"+url[url.indexOf("output_")+"output_".length];
         $(id).css({
             border: "5px solid rgb(255,0,22)"
         });

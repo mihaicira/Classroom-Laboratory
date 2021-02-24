@@ -144,7 +144,7 @@ transition: .2s;
 .content_title a:hover{
     color: rgb(255,153,51);
 }
-#activity_1,#activity_2,#activity_3,#activity_4{
+#activity_1,#activity_2,#activity_3,#activity_4,#output_1,#output_2,#output_3,#output_4{
     transition: .5s;
     border-radius: 20px;
     border: 5px solid transparent;
