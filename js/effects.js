@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function redirect(link){
     window.open(link);
 }
