@@ -25,4 +25,18 @@ if(url.includes("Activities")){
         }, 500);
     }
 }
+function calcFooter(){
+    var page_content = $("#page-content").offset().top+$("#page-content").height();
+    var windowh = $(window).height();
+    var footer = $("#footer").height();
+    var margintop = (windowh-page_content) - footer;
+    $("#footer").css({
+        "margin-top":""+margintop+"px"
+    });
+}
+
+calcFooter();
+$(window).on('resize',function(){
+    calcFooter();
+});
 

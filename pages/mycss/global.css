@@ -125,16 +125,17 @@ transition: .2s;
 }
 
 /*footer*/
-#footer{
+#footer {
     text-align: center;
     padding: 15px;
-    background: rgb(255,153,51);
+    background: rgb(255, 153, 51);
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
     padding-left: 70px;
     padding-right: 70px;
     color: white;
-    background: linear-gradient(360deg, rgba(255,153,51,1) 0%, rgba(255,230,206,0) 150%);
+    background: linear-gradient(360deg, rgba(255, 153, 51, 1) 0%, rgba(255, 230, 206, 0) 150%);
+
 }
 .content_title a{
     color: black;
