@@ -152,6 +152,5 @@ transition: .2s;
 @media only screen and (max-width: 800px) {
     #page-content{
         margin-bottom: 100%;
-        color: red;
     }
 }

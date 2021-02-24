@@ -27,9 +27,10 @@ if(url.includes("Activities")){
 }
 function calcFooter(){
     var page_content = $("#page-content").offset().top+$("#page-content").height();
-    var windowh = $(window).height();
+    var windowh = $(document).height();
     var footer = $("#footer").height();
     var margintop = (windowh-page_content) - footer;
+    console.log(margintop)
     $("#footer").css({
         "margin-top":""+margintop+"px"
     });
